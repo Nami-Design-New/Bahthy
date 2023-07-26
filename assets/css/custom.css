@@ -512,7 +512,7 @@ h1 {
 }
 .content-blog .title {
   font-size: 14px !important;
-  color: #d3cecd;
+  color: #777;
 }
 .content-blog .title:hover a {
   color: #ca7d41;
@@ -543,17 +543,17 @@ h1 {
 }
 .sendform i {
   transition: all 0.3s ease-in-out;
-  transform: rotate(180deg);
-  margin-right: 4px;
+  margin-left: 4px;
   line-height: 24px;
   font-size: 15px;
 }
 .sendform:hover i {
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .axil-single-post.post-formate .content-block .post-thumbnail img {
   max-height: unset;
+  aspect-ratio: 2/1;
 }
 
 .axil-post-wrapper .post-heading {
@@ -587,4 +587,12 @@ h1 {
 .copyright-left .copy-right-p a img {
   max-width: 25px;
   margin: 0 2px;
+}
+
+.small-thumb-image {
+  height: 150px !important;
+}
+
+.axil-footer-widget .widget-title {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=custom.css.map */

@@ -7,7 +7,6 @@ $dark-color-30: #d3cecd;
 ::-webkit-scrollbar {
   width: 8px;
   height: 6px;
-  // background-color: #eee;
   border-radius: 0px !important;
 }
 ::-webkit-scrollbar-track {
@@ -473,7 +472,7 @@ h1 {
   }
   .title {
     font-size: 14px !important;
-    color: $dark-color-30;
+    color: #777;
     &:hover a {
       color: $main-color;
     }
@@ -501,19 +500,19 @@ h1 {
   color: #fff;
   i {
     transition: all .3s ease-in-out;
-    transform: rotate(180deg);
-    margin-right: 4px;
+    margin-left: 4px;
     line-height: 24px;
     font-size: 15px;
   }
   &:hover {
     i {
-      margin-right: 8px;
+      margin-left: 8px;
     }
   }
 }
 .axil-single-post.post-formate .content-block .post-thumbnail img {
   max-height: unset;
+  aspect-ratio: 2/1;
 }
 .axil-post-wrapper .post-heading {
   padding-bottom: 0;
@@ -542,4 +541,10 @@ h1 {
       margin: 0 2px;
     }
   }
+}
+.small-thumb-image{
+  height: 150px !important;
+}
+.axil-footer-widget .widget-title {
+  margin-bottom: 30px;
 }
