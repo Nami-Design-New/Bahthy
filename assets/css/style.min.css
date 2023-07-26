@@ -4769,7 +4769,7 @@ button.axil-btn.btn-size-md i {
 .main-slider-style-3 {
   background-color: #f3f7f6;
   padding: 110px 0;
-  background-image: url("../../assets/images/bg/bg-image-4.jpg");
+  background-image: url("../../assets/img/bg/bg-image-4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -5613,7 +5613,7 @@ button.axil-btn.btn-size-md i {
   z-index: 1;
 }
 .testimonial-style-three-wrapper .heading-title:before {
-  content: url("../../assets/images/testimonial/quote-left.png");
+  content: url("../../assets/img/testimonial/quote-left.png");
   height: 100%;
   width: 100%;
   position: absolute;
@@ -13633,7 +13633,7 @@ body.open .closeMask {
   display: flex;
   flex-direction: column;
   overflow: auto;
-  background-image: url("../../assets/images/others/popup-bg.png");
+  background-image: url("../../assets/img/others/popup-bg.png");
   background-repeat: no-repeat;
   background-position: center right;
 }
