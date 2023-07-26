@@ -186,6 +186,10 @@ $dark-color-30: #d3cecd;
       display: flex;
       align-items: center;
       justify-content: center;
+      @media (max-width: 576px) {
+        width: 28px;
+        height: 28px;
+      }
       a {
         height: 100%;
         display: flex;
@@ -542,9 +546,33 @@ h1 {
     }
   }
 }
-.small-thumb-image{
+.small-thumb-image {
   height: 150px !important;
 }
 .axil-footer-widget .widget-title {
   margin-bottom: 30px;
+}
+@media only screen and (max-width: 479px) {
+  .header-action > ul {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .social-media-nav {
+    margin: 0 8px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .header-action {
+    margin-top: 0;
+  }
+}
+.axil-mobile-toggle .menu-btn:after {
+  background: $main-color;
+}
+.mobile-close-btn:hover {
+  background-color: $main-color;
+}
+footer .social-media-nav {
+  margin: 0;
 }
