@@ -618,3 +618,9 @@ footer .social-media-nav {
     height: initial;
   }
 }
+.back-to-top.show {
+  bottom: 24px;
+  right: 24px;
+  opacity: 1;
+  transform: scale(1);
+}
