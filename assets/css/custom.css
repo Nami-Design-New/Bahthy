@@ -646,7 +646,7 @@ footer .social-media-nav {
 }
 
 .research-bar {
-  margin-top: 76px;
+  margin-top: 66px;
 }
 @media (max-width: 992px) {
   .research-bar {
@@ -689,4 +689,8 @@ footer .social-media-nav {
   right: 24px;
   opacity: 1;
   transform: scale(1);
+}
+
+.research-heading {
+  font-size: 28px;
 }/*# sourceMappingURL=custom.css.map */
