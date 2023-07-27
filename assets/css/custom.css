@@ -421,7 +421,7 @@ h1 {
 }
 
 .main-slider-thumb {
-  background: linear-gradient(rgba(251, 246, 241, 0.7960784314), rgba(251, 246, 241, 0.8823529412)), url(../img/BG.svg);
+  background: linear-gradient(rgba(251, 246, 241, 0.4941176471), rgba(251, 246, 241, 0.4549019608)), url(../img/BG.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -643,4 +643,43 @@ h1 {
 
 footer .social-media-nav {
   margin: 0;
+}
+
+.research-bar {
+  margin-top: 76px;
+}
+@media (max-width: 992px) {
+  .research-bar {
+    margin: 0 0 40px;
+  }
+}
+.research-bar .nav-link {
+  background-color: #fbf6f1;
+  color: #252120;
+  width: 90%;
+  padding: 16px;
+  border-bottom: 1px solid #f3e3d6;
+}
+@media (max-width: 992px) {
+  .research-bar .nav-link {
+    width: 100%;
+  }
+}
+.research-bar .nav-link.active {
+  background-color: #f3e3d6;
+}
+.research-bar .nav-link:first-child {
+  border-radius: 8px 8px 0 0;
+}
+.research-bar .nav-link:last-child {
+  border-bottom: none;
+  border-radius: 0 0 8px 8px;
+}
+
+@media (max-width: 768px) {
+  .content-blog .thumbnail a img {
+    max-width: 100%;
+    aspect-ratio: unset;
+    height: initial;
+  }
 }/*# sourceMappingURL=custom.css.map */

@@ -397,7 +397,7 @@ h1 {
   padding: 24px;
 }
 .main-slider-thumb {
-  background: linear-gradient(#fbf6f1cb, #fbf6f1e1), url(../img/BG.svg);
+  background: linear-gradient(#fbf6f17e, #fbf6f174), url(../img/BG.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -584,4 +584,37 @@ h1 {
 }
 footer .social-media-nav {
   margin: 0;
+}
+.research-bar {
+  margin-top: 76px;
+  @media (max-width: 992px) {
+    margin: 0 0 40px;
+  }
+  .nav-link {
+    background-color: $main-color-10;
+    color: $dark-color;
+    width: 90%;
+    padding: 16px;
+    border-bottom: 1px solid $main-color-30;
+    @media (max-width: 992px) {
+      width: 100%;
+    }
+    &.active {
+      background-color: $main-color-30;
+    }
+    &:first-child {
+      border-radius: 8px 8px 0 0;
+    }
+    &:last-child {
+      border-bottom: none;
+      border-radius: 0 0 8px 8px;
+    }
+  }
+}
+.content-blog .thumbnail a img {
+  @media (max-width: 768px) {
+    max-width: 100%;
+    aspect-ratio: unset;
+    height: initial;
+  }
 }
