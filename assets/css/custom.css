@@ -698,4 +698,8 @@ footer .social-media-nav {
 
 .research-heading {
   font-size: 28px;
+}
+
+.fancybox__content {
+  height: 80lvh !important;
 }/*# sourceMappingURL=custom.css.map */
