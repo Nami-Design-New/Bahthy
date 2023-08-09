@@ -24,10 +24,14 @@ $dark-color-30: #d3cecd;
   position: fixed;
   background: #fff;
   z-index: 100;
+  z-index: 99999999999;
   background-image: url(../img/Loader-min.gif);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 20%;
+  background-size: 30%;
+  @media (max-width: 768px) {
+    background-size: 60%;
+  }
 }
 .hide_loader {
   display: none;
@@ -265,7 +269,7 @@ $dark-color-30: #d3cecd;
   height: 64px;
   border-radius: 50%;
   z-index: 5;
-  background-color: #4DCB5B;
+  background-color: #4dcb5b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,7 +280,7 @@ $dark-color-30: #d3cecd;
   @media (max-width: 414px) {
     left: 10px;
     bottom: 10px;
-    z-index: 99999999999999999;
+    z-index: 99999;
   }
 }
 .main-slider-style-5 .slider-box-wrap {
@@ -645,6 +649,6 @@ footer .social-media-nav {
 .research-heading {
   font-size: 28px;
 }
-.fancybox__content{
+.fancybox__content {
   height: 80lvh !important;
 }

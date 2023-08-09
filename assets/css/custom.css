@@ -21,10 +21,16 @@
   position: fixed;
   background: #fff;
   z-index: 100;
+  z-index: 99999999999;
   background-image: url(../img/Loader-min.gif);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 20%;
+  background-size: 30%;
+}
+@media (max-width: 768px) {
+  #preload {
+    background-size: 60%;
+  }
 }
 
 .hide_loader {
@@ -290,7 +296,7 @@
   height: 64px;
   border-radius: 50%;
   z-index: 5;
-  background-color: #4DCB5B;
+  background-color: #4dcb5b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -303,7 +309,7 @@
   .whatsappButton {
     left: 10px;
     bottom: 10px;
-    z-index: 100000000000000000;
+    z-index: 99999;
   }
 }
 
