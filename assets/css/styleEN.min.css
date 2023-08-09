@@ -1,8 +1,13 @@
-﻿@import "https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap";
+﻿@import "https://fonts.googleapis.com/css2?family=DM+Sans:ital,
+  wght@0,
+  400;0,
+  500;0,
+  700;1,
+  400&family=Poppins:wght@400;500;600;700&display=swap";
 :root {
   --color-primary: #1126a5;
   --light-primary: #8c71db;
-  --color-secondary: #010D57;
+  --color-secondary: #010d57;
   --color-tertiary: #fab8c4;
   --color-white: #ffffff;
   --color-dark: #27272e;
@@ -4150,11 +4155,20 @@ button.axil-btn.btn-size-md i {
 }
 .arrow-top-slide .slide-arrow.next-arrow {
   left: auto;
-  right: 0;
+  right: 58px;
 }
 .arrow-top-slide .slide-arrow.prev-arrow {
   left: auto;
-  right: 58px;
+  right: 0;
+}
+.slick-layout-wrapper--20 .slick-list {
+  direction: rtl;
+}
+.testimonial-style-one .media {
+  flex-direction: row-reverse;
+}
+.testimonial-style-one .media .media-body {
+  flex: inherit;
 }
 @media only screen and (max-width: 767px) {
   .arrow-top-slide .slide-arrow.prev-arrow {
@@ -7888,7 +7902,8 @@ button.axil-btn.btn-size-md i {
   .department-megamenu
   .featured-product
   .product-list
-  .item-product:nth-child(-n + 2) {
+  .item-product:nth-child(-n
+    + 2) {
   grid-column: span 2;
 }
 .axil-mainmenu.aside-category-menu
@@ -17719,10 +17734,8 @@ body.open .closeMask {
     margin-bottom: 100px;
   }
 }
-/*# sourceMappingURL=../maps/style.min.css.map */
-
-
-.language .axil-submenu li  a img{
+/* # sourceMappingURL=../maps/style.min.css.map */
+.language .axil-submenu li  a img {
   width: 32px;
   height: 20px;
   object-fit: cover;
@@ -17732,8 +17745,6 @@ body.open .closeMask {
 .position-view {
   left: 16px;
 }
-
-.axil-team-area .slick-track{
+.axil-team-area .slick-track {
   margin-right: unset;
 }
-
