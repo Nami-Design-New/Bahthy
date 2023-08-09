@@ -29,6 +29,7 @@
 </head>
 
 <body class="sticky-header">
+    <div id="preload"></div>
     <a href="#top" class="back-to-top" id="backto-top"><i class="fal fa-arrow-up"></i></a>
     <a class="whatsappButton" href="https://wa.me/201097984798"><img src="assets/img/whatsappbrand.svg" alt=""></a>
     <!-- Start Header -->
@@ -510,6 +511,14 @@
     <script src="assets/js/vendor/waypoints.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/rtl-main.js"></script>
+    <script>
+        var loader = document.getElementById("preload");
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                loader.classList.add("hide_loader");
+            }, 2500);
+        });
+    </script>
 </body>
 
 </html>

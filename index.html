@@ -29,6 +29,7 @@
 </head>
 
 <body class="sticky-header">
+    <div id="preload"></div>
     <a href="#top" class="back-to-top" id="backto-top"><i class="fal fa-arrow-up"></i></a>
     <a class="whatsappButton" href="https://wa.me/201097984798"><img src="assets/img/whatsappbrand.svg" alt=""></a>
     <!-- Start Header -->
@@ -421,7 +422,7 @@
                         <div class="copyright-left d-flex flex-wrap justify-content-xl-start justify-content-center">
                             <p class="copy-right-p">
                                 جميع الحقوق محفوظة لدى<a href="nami-tec.com">
-                                    <img src="assets/img/Subtract.svg" alt="nami"> NAMI
+                                    <img src="assets/img/logo-new.png" alt="nami">
                                 </a>
                             </p>
                         </div>
@@ -456,6 +457,14 @@
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/rtl-main.js"></script>
+    <script>
+        var loader = document.getElementById("preload");
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                loader.classList.add("hide_loader");
+            }, 2500);
+        });
+    </script>
 </body>
 
 </html>
